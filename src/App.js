@@ -4,6 +4,7 @@ import ServicesSection from "./CloudSolutions";
 import AboutMeSection from "./AboutMeSection";
 import CloudFeatures from "./CloudFeatures";
 import CloudAdvantagesDisadvantages from "./CloudAdvantagesDisadvantages";
+import CodeIaasExample from "./CodeIaasExample";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <ServicesSection/>
             <CloudFeatures/>
             <CloudAdvantagesDisadvantages/>
+            <CodeIaasExample/>
         </div>
     );
 }

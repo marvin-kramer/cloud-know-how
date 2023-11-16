@@ -1,0 +1,31 @@
+.iaasExample {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: left;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.codeBlock {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #272822; /* Dark background for the code block */
+    color: #f8f8f2; /* Light color for the text */
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto; /* Adds horizontal scrolling if the code is too long */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for the code */
+    white-space: pre-wrap; /* Maintains whitespace formatting */
+    word-break: break-all; /* Ensures long lines wrap */
+}
+
+@media (max-width: 768px) {
+    .codeBlock {
+        padding: 15px;
+    }
+}
