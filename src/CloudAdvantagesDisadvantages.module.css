@@ -1,0 +1,61 @@
+.cloudAdvantagesDisadvantages {
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Spacing between the boxes */
+}
+
+.box {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(100% / 3 - 20px);
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.advantage {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+}
+
+.disadvantage {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+}
+
+.symbol {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.advantage .symbol {
+    color: #28a745; /* Green color for plus symbol */
+}
+
+.disadvantage .symbol {
+    color: #dc3545; /* Red color for minus symbol */
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: calc(100% / 2 - 20px); /* Two items per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 100%; /* Full width for very small screens */
+    }
+}
