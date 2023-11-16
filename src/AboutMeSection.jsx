@@ -6,7 +6,7 @@ const AboutMeSection = () => {
         <div className={styles.aboutMe}>
             <h2 id={"about-me"}>About Me</h2>
             <p>
-                Hi there! I'm a passionate learner on a journey to understand the intricacies of Public Cloud technologies. Currently, I'm exploring the fundamentals of cloud services like AWS, Azure, and Google Cloud, and I'm eager to share my learning progress and insights along the way.
+                Hallo! Ich bin ein leidenschaftlicher Lernender auf einer Reise, um die Feinheiten der Public Cloud-Technologien zu verstehen. Derzeit erkunde ich die Grundlagen von Cloud-Diensten wie AWS, Azure und Google Cloud und bin gespannt darauf, meinen Lernfortschritt und Erkenntnisse auf dem Weg zu teilen.
             </p>
         </div>
     );
