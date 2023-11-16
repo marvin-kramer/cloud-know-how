@@ -2,6 +2,7 @@ import Header from "./Header";
 import Hero from "./HeroSection";
 import ServicesSection from "./CloudSolutions";
 import AboutMeSection from "./AboutMeSection";
+import CloudFeatures from "./CloudFeatures";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Hero/>
             <AboutMeSection/>
             <ServicesSection/>
+            <CloudFeatures/>
         </div>
     );
 }

@@ -1,0 +1,52 @@
+.cloudFeatures {
+    background-color: #f8f8f8; /* Light grey background */
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #333; /* Dark grey color for the title */
+}
+
+.featuresList {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: center; /* Centers items on the main axis */
+    gap: 20px; /* Spacing between the boxes */
+}
+
+.feature {
+    background-color: #fff; /* White background for the feature cards */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the feature cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: calc(100% / 3 - 20px); /* Three items per row with gap taken into account */
+    max-width: 300px; /* Maximum width of the boxes */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.feature h3 {
+    color: #007bff; /* Blue color for the feature titles */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666; /* Lighter text for the description */
+}
+
+@media (max-width: 768px) {
+    .feature {
+        width: calc(100% / 2 - 20px); /* Two items per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .feature {
+        width: 100%; /* Full width for very small screens */
+    }
+}
