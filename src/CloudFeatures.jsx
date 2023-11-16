@@ -4,7 +4,7 @@ import styles from './CloudFeatures.module.css'; // Import CSS module
 const CloudFeatures = () => {
     return (
         <div className={styles.cloudFeatures}>
-            <h2 className={styles.title}>Merkmale des Cloud Computing</h2>
+            <h2 id={"features"} className={styles.title}>Merkmale des Cloud Computing</h2>
             <ul className={styles.featuresList}>
                 <li className={styles.feature}>
                     <h3>On Demand (self-service)</h3>

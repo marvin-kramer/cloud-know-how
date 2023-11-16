@@ -6,8 +6,10 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.logo}>Cloud KnowHow</div>
             <nav className={styles.navList}>
-                {/*<a href={"#about-me"}>About Me</a>*/}
-                <a href={"#services"}>Cloud Solutions</a>
+                <a href={"#about-me"}>About Me</a>
+                <a href={"#solutions"}>Cloud Solutions</a>
+                <a href={"#features"}>Cloud Solutions</a>
+                <a href={"#advantages-disadvantages"}>Cloud Solutions</a>
             </nav>
         </header>
     );

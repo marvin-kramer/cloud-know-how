@@ -4,7 +4,7 @@ import styles from './CloudAdvantagesDisadvantages.module.css'; // Import CSS mo
 const CloudAdvantagesDisadvantages = () => {
     return (
         <div className={styles.cloudAdvantagesDisadvantages}>
-            <h2 className={styles.title}>Vor- und Nachteile von Cloud-Lösungen</h2>
+            <h2 id={"advantages-disadvantages"} className={styles.title}>Vor- und Nachteile von Cloud-Lösungen</h2>
             <div className={styles.listContainer}>
                 <div className={`${styles.box} ${styles.advantage}`}>
                     <span className={styles.symbol}>+</span>
