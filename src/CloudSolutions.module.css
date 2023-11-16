@@ -1,0 +1,36 @@
+.cloudSolutions {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333; /* Dark grey color for the title */
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between service cards */
+}
+
+.service {
+    width: 300px; /* Fixed width for each service card */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the service cards */
+    border-radius: 8px; /* Rounded corners for the service cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for the service titles */
+}
+
+.service p {
+    font-size: 14px;
+    color: #666; /* Lighter text for the description */
+}

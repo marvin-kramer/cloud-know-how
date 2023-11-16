@@ -1,0 +1,17 @@
+.hero {
+    background-color: #1a1a1a; /* Dark background for more contrast */
+    color: #ffffff; /* Light text for readability */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px; /* Larger text size */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px; /* Max width for optimal reading */
+    margin: 0 auto; /* Centering the paragraph */
+}

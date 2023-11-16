@@ -1,0 +1,18 @@
+.aboutMe {
+    background-color: #ffffff; /* Light background for contrast */
+    color: #333333; /* Darker text for contrast */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.aboutMe h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutMe p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 700px; /* Max width for optimal reading */
+    margin: 0 auto; /* Centering the paragraph */
+}
