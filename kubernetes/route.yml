@@ -10,6 +10,6 @@ spec:
   to:
     kind: Service
     name: cloud-know-how-service
-  # tls:
-  #   termination: edge
-  #   insecureEdgeTerminationPolicy: Redirect
+  tls:
+   termination: edge
+   insecureEdgeTerminationPolicy: Redirect
