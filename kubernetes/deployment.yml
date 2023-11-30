@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloud-know-how-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloud-know-how
+  template:
+    metadata:
+      labels:
+        app: cloud-know-how
+    spec:
+      containers:
+        - name: cloud-know-how
+          image: ghcr.io/marvin-kramer/cloud-know-how:latest
+          ports:
+            - containerPort: 8080

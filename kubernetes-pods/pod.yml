@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cloud-know-how
+  labels:
+    app: cloud-know-how
+spec:
+  containers:
+    - name: cloud-know-how
+      image: ghcr.io/marvin-kramer/cloud-know-how:latest
+      ports:
+        - containerPort: 80

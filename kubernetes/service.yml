@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloud-know-how-service
+spec:
+  selector:
+    app: cloud-know-how
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
